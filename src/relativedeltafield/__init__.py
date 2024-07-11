@@ -4,7 +4,7 @@ import relativedeltafield.forms
 from django.core.exceptions import ValidationError
 from django.db import models
 from django.utils.deconstruct import deconstructible
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext as _
 
 from datetime import timedelta
 from dateutil.relativedelta import relativedelta

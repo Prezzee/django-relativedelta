@@ -23,7 +23,7 @@ extras = {
 
 setup(
     name='django-relativedelta',
-    version='1.1.2',
+    version='1.2.0',
     package_dir={'': 'src'},
     packages=find_packages('src'),
     include_package_data=True,
@@ -46,6 +46,7 @@ setup(
         'Framework :: Django :: 2.1',
         'Framework :: Django :: 2.2',
         'Framework :: Django :: 3.0',
+        'Framework :: Django :: 4.2',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
@@ -63,7 +64,7 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     install_requires=[
-        'Django >= 1.10, < 4.0',
+        'Django >= 1.10, < 5.0',
         'python-dateutil >= 2.6.0',
     ],
     tests_require=test_deps,
